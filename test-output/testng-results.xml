@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-31T03:14:21 IST" name="Default suite" finished-at="2025-08-31T03:14:31 IST" duration-ms="9210">
+    <groups>
+    </groups>
+    <test started-at="2025-08-31T03:14:21 IST" name="Default test" finished-at="2025-08-31T03:14:31 IST" duration-ms="9210">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.LoginTest@c35172e]" started-at="2025-08-31T03:14:21 IST" name="beforeClass" finished-at="2025-08-31T03:14:28 IST" duration-ms="6294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@c35172e]" started-at="2025-08-31T03:14:28 IST" name="beforeMethod" finished-at="2025-08-31T03:14:29 IST" duration-ms="200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginTest.validLoginTest(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@c35172e]" started-at="2025-08-31T03:14:29 IST" name="validLoginTest" data-provider="loginData" finished-at="2025-08-31T03:14:30 IST" duration-ms="1598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@c35172e]" started-at="2025-08-31T03:14:30 IST" name="afterMethod" finished-at="2025-08-31T03:14:30 IST" duration-ms="47" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLoginTest status=SUCCESS method=LoginTest.validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@c35172e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.LoginTest@c35172e]" started-at="2025-08-31T03:14:30 IST" name="afterClass" finished-at="2025-08-31T03:14:31 IST" duration-ms="487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
